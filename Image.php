@@ -40,7 +40,6 @@ trait Image
         } else {
             // TODO Change the path to reflect the production environment if using shared hosting 
             self::$base_path = base_path() . "/../public_html/images/";
-            // self::$base_path = base_path() . "/../test.michaelmakina.me/images/";
         }
     }
 
